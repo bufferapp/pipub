@@ -9,7 +9,7 @@ def standard_input():
         while stdin.readable():
             line = stdin.readline()
             if line:
-                yield line.encode("utf-8")
+                yield line.strip().encode("utf-8")
 
 
 @click.command()

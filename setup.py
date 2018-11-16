@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 setup(
     name="pipub",
     packages=find_packages(),
-    version="0.1.0",
+    version="0.1.1",
     description="Pipe data from the command line to Google Pubsub.",
     author="David Gasquez",
     license="MIT",
